@@ -137,300 +137,55 @@ let data; {
   const {cols, boxMaxSizeX} = colsBoxMaxSizeXF(windowSizeX)
   const imgMaxSizeY = boxMaxSizeX + 100 // TODO: adjust this better
   data = [
-    {
-        "id": "272d88b3-b818-4800-be28-705c6b58e4a9",
-        "w": 1408,
-        "h": 1024,
-        "prompt": "Desiccated mummified autumnal thorny vine dryad marquis de crimson sunsets, eerie and beautiful, squatting near a moss and exotic fern covered creek bed, looking up at the natural dappled sunlight and low dense fog, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 7:5 --v 4 --c 20 --uplight"
-    },
-    {
-        "id": "f4b46a8a-3386-4791-b8df-c320d2aaf4b8",
-        "w": 1792,
-        "h": 1280,
-        "prompt": "Dessicated mummified autumnal thorny vine dryad marquis de crimson sunsets, eerie and beautiful, squatting near a moss and exotic fern covered creek bed, looking up at the natural dappled sunlight and low dense fog, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 7:5 --v 4 --c 20 --upbeta"
-    },
-    {
-        "id": "84b66784-d862-418d-a1b3-c44dde53bf4e",
-        "w": 1408,
-        "h": 1024,
-        "prompt": "mummified dessicated vine dryad marquis de crimson sunsets, squatting near a moss and exotic fern covered creek bed. natural sunlight and fog, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 7:5 --v 4 --c 20"
-    },
-    {
-        "id": "3abde8fd-57de-440c-bce5-14d38ec2ffde",
-        "w": 1728,
-        "h": 864,
-        "prompt": "Spontaneous elevated view of a big buff blue demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: blue and Yellow demons with big boobys. Humongous boobys. An absolutely fine rack.:: A candid photo of some big buff happy 20 year-old CMYK feminine demons in 2018 dressed up for a night out, enjoying themselves mid-dance at a party bonfire in some apartment in the city, photographed by Nan Goldin, taken with a Fujifilm Instax Mini panorama, flash, candid, natural, spontaneous, youthful, lively, carefree:: --ar 2:1 --c 22"
-    },
-    {
-        "id": "2fab1347-be60-49f5-ba13-e72ef2f1d65c",
-        "w": 1728,
-        "h": 864,
-        "prompt": "Spontaneous elevated view of a big buff blue demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: A candid photo of some big buff happy 20 year-old CMYK feminine demons in 2018 dressed up for a night out, enjoying themselves mid-dance at a party bonfire in some apartment in the city, photographed by Nan Goldin, taken with a Fujifilm Instax Mini panorama, flash, candid, natural, spontaneous, youthful, lively, carefree, --ar 2:1 --c 22"
-    },
-    {
-        "id": "0832d23a-1719-48db-83f2-2c97e2664945",
-        "w": 864,
-        "h": 1728,
-        "prompt": "elevated tilted selfie of a big buff blue female demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 1:2 --c 33"
-    },
-    {
-        "id": "2a34576f-1d6d-4963-bf45-b4f23f3831b6",
-        "w": 864,
-        "h": 1728,
-        "prompt": "elevated tilted selfie of a big buff blue female demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 1:2 --c 33"
-    },
-    {
-        "id": "ad7f6360-7119-4154-a7c8-eacbb0f71c0e",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "postcoitus giggling smug blue-furred female demon pregnant with r2d2 with red-tinted-skin small ivory horns, by Ivan albright and Nicola Samori and Erwin Olaf, Alberto Vargas, Gil Elvgren, Jim Lee --ar 5:7 --c 30"
-    },
-    {
-        "id": "8cab6674-181e-4607-acff-c0a9cab7e454",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "anthropomorphic smug cerulean flower by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "1940f7b5-972a-4b8a-b54e-e6fa66ba06de",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "<https://s.mj.run/p2rYGSRNiI4> <https://s.mj.run/5CAgODaFN5g> big buff female demon with red-skin, mirrored sunglasses, long tusks and small ivory horns, succubuss attorney at law, in a designer suit, prosecutor in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --c 9 --q 2"
-    },
-    {
-        "id": "ed5d1f4b-531f-471c-92d8-3622402df65b",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "<https://s.mj.run/p2rYGSRNiI4> <https://s.mj.run/5CAgODaFN5g> big buff female demon with red-skin, mirrored sunglasses, long tusks and small ivory horns, succubuss attorney at law, in a designer suit, prosecutor in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --c 9 --q 2"
-    },
-    {
-        "id": "7f4f41b8-e587-4a96-8724-111ce8c8d4ee",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "postcoitus giggling smug Big Chungus female demon pregnant with r2d2 with red-tinted-skin small ivory horns, by Ivan albright and Nicola Samori and Erwin Olaf, Alberto Vargas --ar 5:7 --c 30"
-    },
-    {
-        "id": "3f2ea210-6a5c-4d8f-98d3-30aedc318cfd",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "postcoitus giggling smug blue-furred female demon with red-tinted-skin small ivory horns, by Ivan albright and Nicola Samori and Erwin Olaf --ar 5:7 --c 30"
-    },
-    {
-        "id": "0aebfd38-43ea-4895-bfc5-cc0b60380851",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "female demon with red tinted skin small ivory horns, succubuss attorney at law, prosecutor in an ornate courthouse atrium, attractive chubby female demon with red tinted skin, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "e93869b0-57c6-47a7-b1ad-88eb262945ba",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "mummified dessicated vine dryad from lot by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "edbcea91-3845-412e-98ac-8f9897f9b2b2",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "female demon with red tinted skin, sunglasses and small ivory horns, succubuss attorney at law, prosecutor in an ornate courthouse atrium by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "b49890be-1aff-4e59-9315-d5734d0fa672",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "female demon with red tinted skin, sunglasses and small ivory horns, succubuss attorney at law, prosecutor in an ornate courthouse atrium by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "79f89856-c355-4940-afae-4d2b4a5fe10b",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "succubuss with red tinted skin, sunglasses and small ivory horns, succubuss working as a barista by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "35ee4a90-0471-436c-b3c0-b26975b51c37",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "succubuss working as a barista by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "c50d8f00-4111-47a2-832a-7f0854b92dea",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "anthropomorphic smug cerulean flower by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4"
-    },
-    {
-        "id": "87003460-e88a-4933-92b7-f3a12137eb18",
-        "w": 1408,
-        "h": 1024,
-        "prompt": "a haremof confused feral rave bboys in the parking lot of K-Mart, 1997, daylow lightstick party photograph --ar 7:5 --c 30"
-    },
-    {
-        "id": "2389adea-d625-491d-ba84-160bf9793190",
-        "w": 1408,
-        "h": 1024,
-        "prompt": "a haremof confused feral rave bboys in the parking lot of K-Mart, 1997, daylow lightstick party photograph --ar 7:5 --c 30"
-    },
-    {
-        "id": "4cb1a7ad-5137-48a8-8a93-a5855c091900",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "<https://s.mj.run/qgUJePezFio> William Wonka and the Prisoner of Azkaban"
-    },
-    {
-        "id": "d27839ba-92ff-4a91-b604-346006e113d9",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "<https://s.mj.run/WiOnoizmZlU> <https://s.mj.run/9WGnBancjDU> <https://s.mj.run/J7WpE--PnVM> --c 10"
-    },
-    {
-        "id": "53e4d246-5d58-4c1b-8c27-f5d6947e912e",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "<https://s.mj.run/WiOnoizmZlU> <https://s.mj.run/9WGnBancjDU> <https://s.mj.run/J7WpE--PnVM> --c 10"
-    },
-    {
-        "id": "924ef7d6-8e09-45da-b436-771592e088cd",
-        "w": 1536,
-        "h": 1024,
-        "prompt": "Photography by Annie Leibovitz - an iconic photo of Sonic and Knuckles cuddled up together on a white bed, taken by Annie Leibovitz with Hasselblad medium format camera, 80mm lens --ar 3:2 --c 20"
-    },
-    {
-        "id": "f66039a6-f632-40e0-95e5-bac6f3da36f5",
-        "w": 1536,
-        "h": 1024,
-        "prompt": "Photography by Annie Leibovitz - portrait photography, an iconic image of Sonic and Knuckles cuddled up together on a white bed, taken by Annie Leibovitz with Hasselblad medium format camera, 80mm lens --ar 3:2 --c 20"
-    },
-    {
-        "id": "44b840a6-1459-4e5d-beb4-c150bfeeeff5",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "<https://s.mj.run/J28OSJFzuOc> <https://s.mj.run/1juwl9knTG8> R2D2 at a hogwarts fursona convention in a nightclub by tom sachs and nan goldin"
-    },
-    {
-        "id": "8424832e-c68e-4e67-a36a-d825d22a8a84",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "biblically accurate R2D2 with robes and a crown of thorns, per the Guinness Book of World Records"
-    },
-    {
-        "id": "91292482-a22e-4dff-a35a-0df7671786f1",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "biblically accurate R2D2 with robes and a crown of thorns, per the Guinness Book of World Records"
-    },
-    {
-        "id": "7a87b129-2e7c-43a4-89fe-7112a6ffa73c",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "<https://s.mj.run/J28OSJFzuOc> <https://s.mj.run/1juwl9knTG8> R2D2 at a hogwarts fursona convention in an alleyway by tom sachs and nan goldin"
-    },
-    {
-        "id": "8020694b-b3ae-4d4c-a104-ce6abe1437b6",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50"
-    },
-    {
-        "id": "e4d65015-44a5-4c42-b2af-c8cc2fe4a81e",
-        "w": 1664,
-        "h": 2304,
-        "prompt": "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50"
-    },
-    {
-        "id": "c43e5f88-063f-4a00-93d0-92a563c3cca9",
-        "w": 1664,
-        "h": 2304,
-        "prompt": "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50"
-    },
-    {
-        "id": "9f39d9c9-2fac-4683-90bb-92ee2fdbacc9",
-        "w": 2688,
-        "h": 1536,
-        "prompt": "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 16:9 --c 19 --upbeta"
-    },
-    {
-        "id": "690ff9dc-bf0a-42e9-b13b-67a607134622",
-        "w": 1664,
-        "h": 2304,
-        "prompt": "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50"
-    },
-    {
-        "id": "07ca4fdc-baba-499e-aa5a-ec6018347d9d",
-        "w": 2688,
-        "h": 1536,
-        "prompt": "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 16:9 --c 50"
-    },
-    {
-        "id": "4d71373c-58ed-4eb6-a261-3cc6d256f4a9",
-        "w": 960,
-        "h": 1664,
-        "prompt": "<https://s.mj.run/kwC-IvAk84k> elevated view, large cantilever villa with greenroof + landscape design by Louis Benech, dankali depression, alpenglow after the storm, angry clouds, stark landscape photograph with Leica Camera AG M + Leica Summicron-M 35mm f/2 ASPH:: a watercolor textured house designed by frank lloyd wright and mies van der rohe, rusted copper, autumn colors, turqoise lake, landscape photography::0.3 --ar 9:16 --c 35"
-    },
-    {
-        "id": "7aa360ce-b705-4e40-a3b3-a6ea1d744262",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "elevated view, large cantilever villa with greenroof + landscape design by Louis Benech, plitvice lakes, low sunlight after the storm, angry clouds, stark landscape photograph with Leica Camera AG M + Leica Summicron-M 35mm f/2 ASPH --s 500 --c 20 --ar 5:7"
-    },
-    {
-        "id": "48feee5e-a8f4-4c28-875b-78b7be80d6b4",
-        "w": 1024,
-        "h": 1536,
-        "prompt": "elevated view, large modern stone villa with greenroof + landscape design by Louis Benech, lake natron, dappled late afternoon sunlight, fluffy white clouds, stark landscape photograph with Leica Camera AG M + Leica Summicron-M 35mm f/2 ASPH --s 500 --c 20 --ar 2:3"
-    },
-    {
-        "id": "1256a87f-949d-4eff-be2f-b48445732469",
-        "w": 1024,
-        "h": 1536,
-        "prompt": "<https://s.mj.run/UG6D4PvDmyY> <https://s.mj.run/DBkYfmjGX6o> --ar 2:3 --c 20"
-    },
-    {
-        "id": "0f9cc937-2e89-4ced-a605-db41fc8f0438",
-        "w": 1024,
-        "h": 1024,
-        "prompt": "<https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/ruSc8IlgjBQ> <https://s.mj.run/i8C-RVCxjCo> --c 25"
-    },
-    {
-        "id": "596c998f-9236-40a8-bd95-9e0974a1f475",
-        "w": 1024,
-        "h": 1408,
-        "prompt": "<https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/kSydjcMXvT8> --ar 5:7 --c 25"
-    },
-    {
-        "id": "f236e176-6028-42fe-865b-64b15bb5d907",
-        "w": 1024,
-        "h": 1536,
-        "prompt": "<https://s.mj.run/Za_hUGWkkjs> <https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/UG6D4PvDmyY> noble woman with dirty blond hair, holding umbrella, full body, hyper-detailed, rich colors, beautiful by by Felicia Simion:: consumed by envy, gorgeous stunning vibrant digital art by Yoh Nagao and Ken Price:: --ar 2:3 --c 50 --s 300"
-    },
-    {
-        "id": "38b22a4b-4a79-4d73-8393-d20471879b71",
-        "w": 1024,
-        "h": 1536,
-        "prompt": "<https://s.mj.run/PymRAWaoPic> <https://s.mj.run/Be13A6p7pyQ> HD dslr photo of the smug, insufferable blue furry catboy who frequents the local internet cafe ::1.5 Digital Art::-0.5 --q 2 --ar 2:3 --c 20"
-    },
-    {
-        "id": "f2996320-ae7b-4b78-8508-c61b14935849",
-        "w": 1024,
-        "h": 1536,
-        "prompt": "<https://s.mj.run/PymRAWaoPic> <https://s.mj.run/Be13A6p7pyQ> HD dslr photo of the smug, insufferable blue furry catboy who frequents the local internet cafe ::1.5 Digital Art::-0.5 --q 2 --ar 2:3 --c 20"
-    },
-    {
-        "id": "ec626b37-0a8a-483e-a76c-2898983bd0ff",
-        "w": 1024,
-        "h": 1536,
-        "prompt": "<https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/c9eKc7a99gA> <https://s.mj.run/BxDKcmdhOAw> <https://s.mj.run/WiOnoizmZlU> the screaming mind fracturing into The fibonacci sequence by Mr brainwash and Jim steranko --ar 2:3 --c 20"
-    },
-    {
-        "id": "08769b95-e92a-4b8d-bd67-3ef699e1e9f2",
-        "w": 1024,
-        "h": 1280,
-        "prompt": "<https://s.mj.run/52JAGJMU7MA> <https://s.mj.run/1sBr86jFA6o>  <https://s.mj.run/Be13A6p7pyQ> --ar 4:5 --c 30"
-    },
-    {
-        "id": "3a517126-805a-4b05-8eca-694c163be8e8",
-        "w": 1024,
-        "h": 1280,
-        "prompt": "<https://s.mj.run/52JAGJMU7MA> <https://s.mj.run/1sBr86jFA6o>  <https://s.mj.run/Be13A6p7pyQ> --ar 4:5 --c 30"
-    },
+    { id: "272d88b3-b818-4800-be28-705c6b58e4a9", w: 1408, h: 1024, prompt: "Desiccated mummified autumnal thorny vine dryad marquis de crimson sunsets, eerie and beautiful, squatting near a moss and exotic fern covered creek bed, looking up at the natural dappled sunlight and low dense fog, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 7:5 --v 4 --c 20 --uplight" },
+    { id: "f4b46a8a-3386-4791-b8df-c320d2aaf4b8", w: 1792, h: 1280, prompt: "Dessicated mummified autumnal thorny vine dryad marquis de crimson sunsets, eerie and beautiful, squatting near a moss and exotic fern covered creek bed, looking up at the natural dappled sunlight and low dense fog, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 7:5 --v 4 --c 20 --upbeta" },
+    { id: "84b66784-d862-418d-a1b3-c44dde53bf4e", w: 1408, h: 1024, prompt: "mummified dessicated vine dryad marquis de crimson sunsets, squatting near a moss and exotic fern covered creek bed. natural sunlight and fog, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 7:5 --v 4 --c 20" },
+    { id: "3abde8fd-57de-440c-bce5-14d38ec2ffde", w: 1728, h: 864, prompt: "Spontaneous elevated view of a big buff blue demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: blue and Yellow demons with big boobys. Humongous boobys. An absolutely fine rack.:: A candid photo of some big buff happy 20 year-old CMYK feminine demons in 2018 dressed up for a night out, enjoying themselves mid-dance at a party bonfire in some apartment in the city, photographed by Nan Goldin, taken with a Fujifilm Instax Mini panorama, flash, candid, natural, spontaneous, youthful, lively, carefree:: --ar 2:1 --c 22" },
+    { id: "2fab1347-be60-49f5-ba13-e72ef2f1d65c", w: 1728, h: 864, prompt: "Spontaneous elevated view of a big buff blue demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: A candid photo of some big buff happy 20 year-old CMYK feminine demons in 2018 dressed up for a night out, enjoying themselves mid-dance at a party bonfire in some apartment in the city, photographed by Nan Goldin, taken with a Fujifilm Instax Mini panorama, flash, candid, natural, spontaneous, youthful, lively, carefree, --ar 2:1 --c 22" },
+    { id: "0832d23a-1719-48db-83f2-2c97e2664945", w: 864, h: 1728, prompt: "elevated tilted selfie of a big buff blue female demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 1:2 --c 33" },
+    { id: "2a34576f-1d6d-4963-bf45-b4f23f3831b6", w: 864, h: 1728, prompt: "elevated tilted selfie of a big buff blue female demon with small horns and tail, looking to the flames, feeling nostalgic wearing a classic Lanvin suit, standing by the bonfire in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 1:2 --c 33" },
+    { id: "ad7f6360-7119-4154-a7c8-eacbb0f71c0e", w: 1024, h: 1408, prompt: "postcoitus giggling smug blue-furred female demon pregnant with r2d2 with red-tinted-skin small ivory horns, by Ivan albright and Nicola Samori and Erwin Olaf, Alberto Vargas, Gil Elvgren, Jim Lee --ar 5:7 --c 30" },
+    { id: "8cab6674-181e-4607-acff-c0a9cab7e454", w: 1024, h: 1408, prompt: "anthropomorphic smug cerulean flower by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "1940f7b5-972a-4b8a-b54e-e6fa66ba06de", w: 1024, h: 1408, prompt: "<https://s.mj.run/p2rYGSRNiI4> <https://s.mj.run/5CAgODaFN5g> big buff female demon with red-skin, mirrored sunglasses, long tusks and small ivory horns, succubuss attorney at law, in a designer suit, prosecutor in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --c 9 --q 2" },
+    { id: "ed5d1f4b-531f-471c-92d8-3622402df65b", w: 1024, h: 1408, prompt: "<https://s.mj.run/p2rYGSRNiI4> <https://s.mj.run/5CAgODaFN5g> big buff female demon with red-skin, mirrored sunglasses, long tusks and small ivory horns, succubuss attorney at law, in a designer suit, prosecutor in an ornate courthouse atrium by Miles Aldridge and Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --c 9 --q 2" },
+    { id: "7f4f41b8-e587-4a96-8724-111ce8c8d4ee", w: 1024, h: 1408, prompt: "postcoitus giggling smug Big Chungus female demon pregnant with r2d2 with red-tinted-skin small ivory horns, by Ivan albright and Nicola Samori and Erwin Olaf, Alberto Vargas --ar 5:7 --c 30" },
+    { id: "3f2ea210-6a5c-4d8f-98d3-30aedc318cfd", w: 1024, h: 1408, prompt: "postcoitus giggling smug blue-furred female demon with red-tinted-skin small ivory horns, by Ivan albright and Nicola Samori and Erwin Olaf --ar 5:7 --c 30" },
+    { id: "0aebfd38-43ea-4895-bfc5-cc0b60380851", w: 1024, h: 1408, prompt: "female demon with red tinted skin small ivory horns, succubuss attorney at law, prosecutor in an ornate courthouse atrium, attractive chubby female demon with red tinted skin, by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "e93869b0-57c6-47a7-b1ad-88eb262945ba", w: 1024, h: 1408, prompt: "mummified dessicated vine dryad from lot by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "edbcea91-3845-412e-98ac-8f9897f9b2b2", w: 1024, h: 1408, prompt: "female demon with red tinted skin, sunglasses and small ivory horns, succubuss attorney at law, prosecutor in an ornate courthouse atrium by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "b49890be-1aff-4e59-9315-d5734d0fa672", w: 1024, h: 1408, prompt: "female demon with red tinted skin, sunglasses and small ivory horns, succubuss attorney at law, prosecutor in an ornate courthouse atrium by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "79f89856-c355-4940-afae-4d2b4a5fe10b", w: 1024, h: 1408, prompt: "succubuss with red tinted skin, sunglasses and small ivory horns, succubuss working as a barista by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "35ee4a90-0471-436c-b3c0-b26975b51c37", w: 1024, h: 1408, prompt: "succubuss working as a barista by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "c50d8f00-4111-47a2-832a-7f0854b92dea", w: 1024, h: 1408, prompt: "anthropomorphic smug cerulean flower by Ivan albright and Nicola Samori and Erwin Olaf:: --ar 5:7 --v 4" },
+    { id: "87003460-e88a-4933-92b7-f3a12137eb18", w: 1408, h: 1024, prompt: "a haremof confused feral rave bboys in the parking lot of K-Mart, 1997, daylow lightstick party photograph --ar 7:5 --c 30" },
+    { id: "2389adea-d625-491d-ba84-160bf9793190", w: 1408, h: 1024, prompt: "a haremof confused feral rave bboys in the parking lot of K-Mart, 1997, daylow lightstick party photograph --ar 7:5 --c 30" },
+    { id: "4cb1a7ad-5137-48a8-8a93-a5855c091900", w: 1024, h: 1024, prompt: "<https://s.mj.run/qgUJePezFio> William Wonka and the Prisoner of Azkaban" },
+    { id: "d27839ba-92ff-4a91-b604-346006e113d9", w: 1024, h: 1024, prompt: "<https://s.mj.run/WiOnoizmZlU> <https://s.mj.run/9WGnBancjDU> <https://s.mj.run/J7WpE--PnVM> --c 10" },
+    { id: "53e4d246-5d58-4c1b-8c27-f5d6947e912e", w: 1024, h: 1024, prompt: "<https://s.mj.run/WiOnoizmZlU> <https://s.mj.run/9WGnBancjDU> <https://s.mj.run/J7WpE--PnVM> --c 10" },
+    { id: "924ef7d6-8e09-45da-b436-771592e088cd", w: 1536, h: 1024, prompt: "Photography by Annie Leibovitz - an iconic photo of Sonic and Knuckles cuddled up together on a white bed, taken by Annie Leibovitz with Hasselblad medium format camera, 80mm lens --ar 3:2 --c 20" },
+    { id: "f66039a6-f632-40e0-95e5-bac6f3da36f5", w: 1536, h: 1024, prompt: "Photography by Annie Leibovitz - portrait photography, an iconic image of Sonic and Knuckles cuddled up together on a white bed, taken by Annie Leibovitz with Hasselblad medium format camera, 80mm lens --ar 3:2 --c 20" },
+    { id: "44b840a6-1459-4e5d-beb4-c150bfeeeff5", w: 1024, h: 1024, prompt: "<https://s.mj.run/J28OSJFzuOc> <https://s.mj.run/1juwl9knTG8> R2D2 at a hogwarts fursona convention in a nightclub by tom sachs and nan goldin" },
+    { id: "8424832e-c68e-4e67-a36a-d825d22a8a84", w: 1024, h: 1024, prompt: "biblically accurate R2D2 with robes and a crown of thorns, per the Guinness Book of World Records" },
+    { id: "91292482-a22e-4dff-a35a-0df7671786f1", w: 1024, h: 1024, prompt: "biblically accurate R2D2 with robes and a crown of thorns, per the Guinness Book of World Records" },
+    { id: "7a87b129-2e7c-43a4-89fe-7112a6ffa73c", w: 1024, h: 1024, prompt: "<https://s.mj.run/J28OSJFzuOc> <https://s.mj.run/1juwl9knTG8> R2D2 at a hogwarts fursona convention in an alleyway by tom sachs and nan goldin" },
+    { id: "8020694b-b3ae-4d4c-a104-ce6abe1437b6", w: 1024, h: 1408, prompt: "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50" },
+    { id: "e4d65015-44a5-4c42-b2af-c8cc2fe4a81e", w: 1664, h: 2304, prompt: "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50" },
+    { id: "c43e5f88-063f-4a00-93d0-92a563c3cca9", w: 1664, h: 2304, prompt: "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50" },
+    { id: "9f39d9c9-2fac-4683-90bb-92ee2fdbacc9", w: 2688, h: 1536, prompt: "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 16:9 --c 19 --upbeta" },
+    { id: "690ff9dc-bf0a-42e9-b13b-67a607134622", w: 1664, h: 2304, prompt: "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 5:7 --c 50" },
+    { id: "07ca4fdc-baba-499e-aa5a-ec6018347d9d", w: 2688, h: 1536, prompt: "Expressive gouache and ink illustration, a cantilever house designed by Glenn Murcutt hidden in an autumn old growth forest near a mossy rocky stream, by Hokusai and James Gurney Peter Mohrbacher, Marc Simonetti, Mike Mignola, Bright autumn tones, Black paper with detailed line work, Mandelbulb Fractal, Trending on Artstation + Exquisite detail perfect, gold details, hyper detailed, golden ratio --ar 16:9 --c 50" },
+    { id: "4d71373c-58ed-4eb6-a261-3cc6d256f4a9", w: 960, h: 1664, prompt: "<https://s.mj.run/kwC-IvAk84k> elevated view, large cantilever villa with greenroof + landscape design by Louis Benech, dankali depression, alpenglow after the storm, angry clouds, stark landscape photograph with Leica Camera AG M + Leica Summicron-M 35mm f/2 ASPH:: a watercolor textured house designed by frank lloyd wright and mies van der rohe, rusted copper, autumn colors, turqoise lake, landscape photography::0.3 --ar 9:16 --c 35" },
+    { id: "7aa360ce-b705-4e40-a3b3-a6ea1d744262", w: 1024, h: 1408, prompt: "elevated view, large cantilever villa with greenroof + landscape design by Louis Benech, plitvice lakes, low sunlight after the storm, angry clouds, stark landscape photograph with Leica Camera AG M + Leica Summicron-M 35mm f/2 ASPH --s 500 --c 20 --ar 5:7" },
+    { id: "48feee5e-a8f4-4c28-875b-78b7be80d6b4", w: 1024, h: 1536, prompt: "elevated view, large modern stone villa with greenroof + landscape design by Louis Benech, lake natron, dappled late afternoon sunlight, fluffy white clouds, stark landscape photograph with Leica Camera AG M + Leica Summicron-M 35mm f/2 ASPH --s 500 --c 20 --ar 2:3" },
+    { id: "1256a87f-949d-4eff-be2f-b48445732469", w: 1024, h: 1536, prompt: "<https://s.mj.run/UG6D4PvDmyY> <https://s.mj.run/DBkYfmjGX6o> --ar 2:3 --c 20" },
+    { id: "0f9cc937-2e89-4ced-a605-db41fc8f0438", w: 1024, h: 1024, prompt: "<https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/ruSc8IlgjBQ> <https://s.mj.run/i8C-RVCxjCo> --c 25" },
+    { id: "596c998f-9236-40a8-bd95-9e0974a1f475", w: 1024, h: 1408, prompt: "<https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/kSydjcMXvT8> --ar 5:7 --c 25" },
+    { id: "f236e176-6028-42fe-865b-64b15bb5d907", w: 1024, h: 1536, prompt: "<https://s.mj.run/Za_hUGWkkjs> <https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/UG6D4PvDmyY> noble woman with dirty blond hair, holding umbrella, full body, hyper-detailed, rich colors, beautiful by by Felicia Simion:: consumed by envy, gorgeous stunning vibrant digital art by Yoh Nagao and Ken Price:: --ar 2:3 --c 50 --s 300" },
+    { id: "38b22a4b-4a79-4d73-8393-d20471879b71", w: 1024, h: 1536, prompt: "<https://s.mj.run/PymRAWaoPic> <https://s.mj.run/Be13A6p7pyQ> HD dslr photo of the smug, insufferable blue furry catboy who frequents the local internet cafe ::1.5 Digital Art::-0.5 --q 2 --ar 2:3 --c 20" },
+    { id: "f2996320-ae7b-4b78-8508-c61b14935849", w: 1024, h: 1536, prompt: "<https://s.mj.run/PymRAWaoPic> <https://s.mj.run/Be13A6p7pyQ> HD dslr photo of the smug, insufferable blue furry catboy who frequents the local internet cafe ::1.5 Digital Art::-0.5 --q 2 --ar 2:3 --c 20" },
+    { id: "ec626b37-0a8a-483e-a76c-2898983bd0ff", w: 1024, h: 1536, prompt: "<https://s.mj.run/Be13A6p7pyQ> <https://s.mj.run/c9eKc7a99gA> <https://s.mj.run/BxDKcmdhOAw> <https://s.mj.run/WiOnoizmZlU> the screaming mind fracturing into The fibonacci sequence by Mr brainwash and Jim steranko --ar 2:3 --c 20" },
+    { id: "08769b95-e92a-4b8d-bd67-3ef699e1e9f2", w: 1024, h: 1280, prompt: "<https://s.mj.run/52JAGJMU7MA> <https://s.mj.run/1sBr86jFA6o>  <https://s.mj.run/Be13A6p7pyQ> --ar 4:5 --c 30" },
+    { id: "3a517126-805a-4b05-8eca-694c163be8e8", w: 1024, h: 1280, prompt: "<https://s.mj.run/52JAGJMU7MA> <https://s.mj.run/1sBr86jFA6o>  <https://s.mj.run/Be13A6p7pyQ> --ar 4:5 --c 30" },
   ].map((d, i) => {
     const ar = d.w / d.h
     const sizeX = Math.min(d.w, boxMaxSizeX, imgMaxSizeY * ar)
